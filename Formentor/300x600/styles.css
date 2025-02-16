@@ -30,6 +30,7 @@ strong{
 
 sup, sub {
   font-size: 50%;
+  line-height: 1.2;
 }
 
 html, body {
@@ -112,6 +113,12 @@ html, body {
   font-size: 17.6px;
   line-height: 21.5px;
   font-family: 'cupra-book', sans-serif;
+}
+#para-1 .up{
+  top: 19px;
+  left: 166px;
+  position: absolute;
+  font-size: 11px;
 }
 #para-2{
   top: 400px;

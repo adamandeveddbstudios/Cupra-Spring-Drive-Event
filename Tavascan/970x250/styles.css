@@ -30,6 +30,7 @@ strong{
 
 sup, sub {
   font-size: 50%;
+  line-height: 1.2;
 }
 
 html, body {
@@ -114,7 +115,7 @@ html, body {
   font-family: 'cupra-book', sans-serif;
 }
 #para-1 .up{
-  top: -3px;
+  top: -1px;
   left: 290px;
   position: absolute;
   font-size: 11px;
@@ -124,22 +125,10 @@ html, body {
   font-size: 18.5px;
   line-height: 24.8px;
 }
-#para-2 sup{
-  position: absolute;
-  top: 21px;
-  left: 241px;
-  font-size: 10px;
-}
 #para-3{
   top: 116px;
   line-height: 25px;
   font-size: 18.5px;
-}
-#para-3 sup{
-  position: absolute;
-  right: 84px;
-  top: 46px;
-  font-size: 10px;
 }
 #legal1, #legal2, #legal3{
   bottom: 20px;
