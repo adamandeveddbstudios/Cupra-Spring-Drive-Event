@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="ad.size" content="width=300,height=600">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript">
+      var clickTag = "";
+    </script>
+  </head>
+  <body onload="init();">
+    <div id="main">
+      <div id="background"></div>
+      <img src="images/bg.jpg" id="bg" class="absolute full-width" />
+      <div id="text-container">
+        <div id="text-1" class="absolute copy cupra-book"> THE CUPRA DRIVE EVENT </div>
+        <div id="para-1" class="absolute copy cupra-book"> Until 31 <sup>st</sup> March <br>get an <strong>extra £500 <sup class="up">^</sup>
+            <br>off </strong> a CUPRA Born... </div>
+        <div id="para-2" class="absolute copy cupra-book hidden">
+          <strong>plus £4,500</strong> towards <br>your finance deposit <br>at <strong>0% APR <sup>*</sup>
+          </strong> &nbsp;with <br>Solutions PCP...
+        </div>
+        <div id="para-3" class="absolute copy cupra-book hidden"> and the choice between <br>a <strong>free wall box charger</strong> or <br>
+          <strong>£700 charging voucher</strong>. <strong>
+            <sup>**</sup>
+          </strong>
+        </div>
+        <div id="legal1">
+          <sup>^</sup>UK retail customers, exc. contract hire, 18+. Order by 31/3, <br>delivered by 30/6. Subject to availability. Exc. Channel Islands <br>& Isle of Man. T&Cs apply.
+        </div>
+        <div id="legal2" class="hidden">
+          <sup>*</sup>Ordered by 31/03/2025. Maximum 36 month contract. <br>Minimum 10% deposit. Maximum 40% deposit. <br>Indemnities may be required. SEAT Financial Services.
+        </div>
+        <div id="legal3" class="hidden">
+          <sup>**</sup>UK retail customers only, 18+. Receive either: a 7kW Ohme <br> Home Pro home EV charger (tethered), a 7kW ePod home EV <br> charger (untethered) or a CUPRA Charging voucher with £700 <br> credit. Order and collect a new CUPRA Born or CUPRA Tavascan <br> between 19/12/24 and 31/03/25. Installation to take place by <br> 30/06/25. Incentive must be requested at the point of purchase <br> & cannot be claimed retrospectively. T&C's apply.
+        </div>
+      </div>
+      <img src="images/cta.png" id="cta" class="absolute full-width hidden" />
+      <img src="images/cta-roll.png" id="cta-roll" class="absolute full-width hidden" />
+      <img src="images/logo.png" id="logo" class="absolute full-width" />
+      <div id="default_exit" class="btn"></div>
+    </div>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.19.0_643d6911392a3398cb1607993edabfa7_min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script>
+      var clickArea = document.getElementById("default_exit");
+      clickArea.onclick = function() {
+        window.open(clickTag);
+      };
+    </script>
+  </body>
+</html>

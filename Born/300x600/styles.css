@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'cupra-book';
+  src: url('fonts/subset-Cupra-Book.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cupra-bold';
+  src: url('fonts/subset-Cupra-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+strong{
+  font-family: 'cupra-bold';
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.absolute {
+  position:absolute;
+  height: auto;
+}
+
+sup, sub {
+  font-size: 50%;
+}
+
+html, body {
+  width:300px;
+  height:600px;
+  margin: 0;
+}
+
+#main,
+#background {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:600px;
+  background-color: #002d39;
+  border: solid 1px #000000;
+}
+
+#main {
+  overflow:hidden;
+}
+
+#image-container {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:300px;
+  height:60
+  0px;
+  overflow:hidden;
+}
+
+.full-width {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+}
+
+.copy {
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.copy span {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.cupra-book {
+  font-family: 'cupra-book', sans-serif;
+}
+#text-1 {
+  top: 294px;
+  left: 16px;
+  font-size: 32.1px;
+  line-height: 31px;
+  letter-spacing: 1.4px;
+}
+#text-2{
+  left: 16px;
+  top: 327px;
+  font-size: 47.5px;
+  line-height: 43.5px;
+  letter-spacing: 2.2px;
+}
+#para-1, #para-2, #para-3{
+  top: 366px;
+  left: 20px;
+  font-size: 17.8px;
+  line-height: 22.5px;
+  font-family: 'cupra-book', sans-serif;
+}
+#para-1 .up{
+  top: 20px;
+  left: 151px;
+  position: absolute;
+  font-size: 11px;
+}
+#para-2{
+  top: 368.5px;
+  font-size: 17.8px;
+  line-height: 22.8px;
+}
+#para-2 sup{
+  position: absolute;
+  top: 42px;
+  left: 94px;
+}
+#para-3{
+  top: 368px;
+  line-height: 23px;
+}
+#para-3 sup{
+  position: absolute;
+  right: 3px;
+  top: 43px;
+}
+#legal1, #legal2, #legal3{
+  bottom: 13px;
+  left: 21px;
+  font-size: 8px;
+  line-height: 9.6px;
+  text-align: left;
+  position: absolute;
+  font-family: 'cupra-book', sans-serif;
+  color: #fff;
+}
+#legal1 sup{
+  position: absolute;
+  left: -3px;
+  font-size: 7px;
+  top: -3px; 
+}
+#legal2{
+  left: 23px;
+}
+#legal2 sup{
+  position: absolute;
+  left: -3px;
+  top: -1px;
+  font-size: 6px;
+}
+#legal3 sup{
+  position: absolute;
+  left: -7px;
+  top: -1px;
+  font-size: 7px;
+}
+
+#default_exit{
+  top:0px;
+  left:0px;
+  width: 300px;
+  height: 600px;
+  cursor: pointer;
+}
+
+.btn{
+  position: absolute;
+  top:0px;
+  left:0px;
+  cursor: pointer;
+  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+  z-index: 200;
+}
+
+:focus{outline: 0}
+
+::-moz-focus-inner{border: 0}

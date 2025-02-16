@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'cupra-book';
+  src: url('fonts/subset-Cupra-Book.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cupra-bold';
+  src: url('fonts/subset-Cupra-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+strong{
+  font-family: 'cupra-bold';
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.absolute {
+  position:absolute;
+  height: auto;
+}
+
+sup, sub {
+  font-size: 50%;
+}
+
+html, body {
+  width:970px;
+  height:250px;
+  margin: 0;
+}
+
+#main,
+#background {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:970px;
+  height:250px;
+  background-color: #002d39;
+  border: solid 1px #000000;
+}
+
+#main {
+  overflow:hidden;
+}
+
+#image-container {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:970px;
+  height:60
+  0px;
+  overflow:hidden;
+}
+
+.full-width {
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  width: 970px;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
+}
+
+.copy {
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.copy span {
+  opacity: 0;
+  visibility: hidden;
+}
+.cupra-book {
+  font-family: 'cupra-book', sans-serif;
+}
+#text-1 {
+  top: 23px;
+  left: 25px;
+  font-size: 44px;
+  line-height: 41px;
+  letter-spacing: 2px;
+}
+#text-2{
+  left: 27px;
+  top: 25px;
+  font-size: 56.5px;
+  line-height: 51.5px;
+  letter-spacing: 2.2px;
+}
+#para-1, #para-2{
+  top: 113px;
+  left: 30px;
+  font-size: 18.9px;
+  line-height: 23.5px;
+  font-family: 'cupra-book', sans-serif;
+}
+#para-2{
+  top: 117px;
+  font-size: 18.7px;
+  line-height: 23px;
+}
+#legal1, #legal2{
+  bottom: 20px;
+  left: 29px;
+  font-size: 9px;
+  line-height: 10.3px;
+  text-align: left;
+  position: absolute;
+  font-family: 'cupra-book', sans-serif;
+  color: #fff;
+}
+#legal1 sup{
+  position: absolute;
+  left: -3px;
+  font-size: 7px;
+  top: -3px; 
+}
+#legal2{
+  left: 25px;
+}
+#left_logo{
+  width: 35.5px;
+  top: 12px;
+  left: 10.5px;
+}
+
+#default_exit{
+  top:0px;
+  left:0px;
+  width: 970px;
+  height: 250px;
+  cursor: pointer;
+}
+
+.btn{
+  position: absolute;
+  top:0px;
+  left:0px;
+  cursor: pointer;
+  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+  z-index: 200;
+}
+
+:focus{outline: 0}
+
+::-moz-focus-inner{border: 0}
