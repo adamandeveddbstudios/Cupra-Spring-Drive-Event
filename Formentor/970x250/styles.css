@@ -10,6 +10,7 @@
   src: url('fonts/subset-Cupra-Bold.woff') format('woff');
   font-style: normal;
   font-display: swap;
+  font-weight: bold;
 }
 
 * {
@@ -100,7 +101,7 @@ html, body {
   letter-spacing: 2px;
 }
 #text-2{
-  left: 27px;
+  left: 24px;
   top: 25px;
   font-size: 56.5px;
   line-height: 51.5px;
@@ -114,11 +115,15 @@ html, body {
   font-family: 'cupra-book', sans-serif;
 }
 #para-1 .up{
+  position: relative;
+  font-size: 13px;
+}
+/* #para-1 .up{
   top: 0px;
   left: 309px;
   position: absolute;
   font-size: 11px;
-}
+} */
 #para-2{
   top: 117px;
   font-size: 18.7px;
@@ -137,11 +142,26 @@ html, body {
 #legal1 sup{
   position: absolute;
   left: -3px;
+  top: -2px; 
   font-size: 7px;
-  top: -3px; 
 }
 #legal2{
-  left: 25px;
+  left: 30px;
+}
+#legal2 sup{
+  position: absolute;
+  left: -3px;
+  top: 0px;
+  font-size: 6px;
+}
+#legal3{
+  bottom: 10px;
+}
+#legal3 sup{
+  position: absolute;
+  left: -7px;
+  top: -1px;
+  font-size: 7px;
 }
 #left_logo{
   width: 35.5px;

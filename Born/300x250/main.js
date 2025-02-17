@@ -23,7 +23,6 @@ function animate() {
 
   tl1.set(["#main_content"], { autoAlpha: 1, force3D: true });
   tl1.set(["#cta"], { force3D: false, rotation: .001 });
-
   tl1.to(['#para-1, #legal1'], 0.5, { autoAlpha: 0, ease: "power1.in" }, '+=6');
   tl1.to(['#para-2, #legal2'], 0.5, { autoAlpha: 1, ease: "power1.in" }, '+=0.2');
   tl1.to(['#para-2, #legal2'], 0.5, { autoAlpha: 0, ease: "power1.in" }, '+=6');
